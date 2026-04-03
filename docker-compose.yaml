@@ -36,6 +36,4 @@ services:
 
 volumes:
   botpress_data:
-    name: ${COOLIFY_PROJECT_UUID}-botpress-data
   postgres_data:
-    name: ${COOLIFY_PROJECT_UUID}-postgres-data
